@@ -13,7 +13,7 @@ sudo apt autoremove -y
 sudo apt install -y chromium-bsu
 
 # Add shortcuts to desktop
-sudo cd ~/Desktop
+cd ~/Desktop
 mkdir .icons
 cd .icons
 wget https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzv893kwy4t3aji512fdckhgk-wpengine.netdna-ssl.com%2Fwp-content%2Fuploads%2Fgmail-icon.png&f=1&nofb=1
