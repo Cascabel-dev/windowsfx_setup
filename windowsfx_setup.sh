@@ -21,6 +21,7 @@ wget https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_ico
 cp 1200px-Google_Chrome_icon_\(September_2014\).svg.png google_chrome.png
 cd ..
 touch Gmail.desktop
+touch Chrome.desktop
 echo "[Desktop Entry]
 Name=Gmail
 Comment="Shortcut to Google's email service."
@@ -35,4 +36,4 @@ Comment="Shortcut to Google's web browser."
 Exec=chromium-bsu
 Icon=.icons/google_chrome.png
 Terminal=false
-Type=Application"
+Type=Application" > Chrome.desktop
