@@ -24,7 +24,7 @@ touch Gmail.desktop
 touch Chrome.desktop
 echo "[Desktop Entry]
 Name=Gmail
-Comment="Shortcut to Google's email service."
+Comment=\"Shortcut to Google's email service.\"
 Exec=chromium-bsu https://mail.google.com/mail/u/0/
 Icon=.icons/gmail-icon.png
 Terminal=false
@@ -32,7 +32,7 @@ Type=Application" > Gmail.desktop
 touch Chrome.desktop
 echo "[Desktop Entry]
 Name=Google Chrome
-Comment="Shortcut to Google's web browser."
+Comment=\"Shortcut to Google's web browser.\"
 Exec=chromium-bsu
 Icon=.icons/google_chrome.png
 Terminal=false
